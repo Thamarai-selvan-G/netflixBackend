@@ -3,7 +3,7 @@ var router = express.Router();
 let vendorAccount = require('../Controller/vendor.controller')
 const vendorMiddleware = require('../middle_ware/vendorMiddleware')
 
-router.post('/create',vendorAccount.createVendor)
+router.post('/create',vendorMiddleware.middleWareChecking,vendorMiddleware.passwordvalidator,vendorAccount.createVendor)
 router.get('/viewall',vendorAccount.viewAll)
 router.get('/viewid/:id',vendorAccount.viewId)
 router.put('/update/:id',vendorAccount.updateId)

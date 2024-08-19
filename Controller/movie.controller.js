@@ -13,6 +13,7 @@ const createMovie = async (req, res) => {
     return res.status(201).json({ message : "upload succesfull"})
 
   } catch (error) {
+
     return res.status(500).json({ message: error.message });
   }
 };

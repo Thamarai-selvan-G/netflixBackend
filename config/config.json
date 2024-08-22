@@ -1,9 +1,10 @@
+
 {
   "development": {
-    "username": "netflixclone_5m2b_user",
-    "password": "x6lSpTGgciP9YFMRKz1oJULRgoisN2Ce",
-    "database": "netflixclone_5m2b",
-    "host": "dpg-cqcb9td6l47c73d0u79g-a.singapore-postgres.render.com",
+    "username": "netflixclone_2nw9_user",
+    "password": "J3Y8zblpi675LiySU2UfydAGsf6YEpPE",
+    "database": "netflixclone_2nw9",
+    "host": "dpg-cr1er723esus73atu560-a.singapore-postgres.render.com",
     "dialect": "postgres",
     "port": 5432,
     "dialectOptions": {
@@ -13,17 +14,29 @@
     }
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "netflixclone_2nw9_user",
+    "password": "J3Y8zblpi675LiySU2UfydAGsf6YEpPE",
+    "database": "netflixclone_2nw9",
+    "host": "dpg-cr1er723esus73atu560-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": {
+        "require": true
+      }
+    }
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "netflixclone_2nw9_user",
+    "password": "J3Y8zblpi675LiySU2UfydAGsf6YEpPE",
+    "database": "netflixclone_2nw9",
+    "host": "dpg-cr1er723esus73atu560-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": {
+        "require": true
+      }
+    }
   }
 }
